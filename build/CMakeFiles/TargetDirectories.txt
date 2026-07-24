@@ -1,0 +1,3 @@
+C:/Users/Afra/OneDrive/desktop/test_git/build/CMakeFiles/singeltoon.dir
+C:/Users/Afra/OneDrive/desktop/test_git/build/CMakeFiles/edit_cache.dir
+C:/Users/Afra/OneDrive/desktop/test_git/build/CMakeFiles/rebuild_cache.dir
