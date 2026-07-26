@@ -5,10 +5,10 @@ class DataBase
 {
 private:
     static DataBase *db;
-    DataBase() = default;
+    DataBase();
 
 public:
-    DataBase *get_instance();
+    static DataBase *get_instance();
 };
 
 #endif

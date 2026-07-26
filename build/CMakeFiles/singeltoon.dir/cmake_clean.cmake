@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/singeltoon.dir/src/DataBase.cpp.obj"
+  "CMakeFiles/singeltoon.dir/src/DataBase.cpp.obj.d"
   "CMakeFiles/singeltoon.dir/src/main.cpp.obj"
   "CMakeFiles/singeltoon.dir/src/main.cpp.obj.d"
   "libsingeltoon.dll.a"

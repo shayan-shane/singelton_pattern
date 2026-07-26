@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\Afra\OneDrive\Desktop\test_git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Afra\OneDrive\desktop\test_git\build
+CMAKE_BINARY_DIR = C:\Users\Afra\OneDrive\Desktop\test_git\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/singeltoon.dir/clean
 CMakeFiles/singeltoon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Afra\OneDrive\desktop\test_git\build\CMakeFiles --progress-num=1,2 "Built target singeltoon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Afra\OneDrive\Desktop\test_git\build\CMakeFiles --progress-num=1,2,3 "Built target singeltoon"
 .PHONY : CMakeFiles/singeltoon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/singeltoon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\desktop\test_git\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\Desktop\test_git\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/singeltoon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\desktop\test_git\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\Desktop\test_git\build\CMakeFiles 0
 .PHONY : CMakeFiles/singeltoon.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ singeltoon: CMakeFiles/singeltoon.dir/rule
 # codegen rule for target.
 CMakeFiles/singeltoon.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Afra\OneDrive\desktop\test_git\build\CMakeFiles --progress-num=1,2 "Finished codegen for target singeltoon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Afra\OneDrive\Desktop\test_git\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target singeltoon"
 .PHONY : CMakeFiles/singeltoon.dir/codegen
 
 # clean rule for target.

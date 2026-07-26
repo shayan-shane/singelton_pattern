@@ -59,7 +59,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\Afra\OneDrive\Desktop\test_git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Afra\OneDrive\desktop\test_git\build
+CMAKE_BINARY_DIR = C:\Users\Afra\OneDrive\Desktop\test_git\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\desktop\test_git\build\CMakeFiles C:\Users\Afra\OneDrive\desktop\test_git\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\Desktop\test_git\build\CMakeFiles C:\Users\Afra\OneDrive\Desktop\test_git\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\desktop\test_git\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Afra\OneDrive\Desktop\test_git\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ singeltoon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/build
 .PHONY : singeltoon/fast
 
+src/DataBase.obj: src/DataBase.cpp.obj
+.PHONY : src/DataBase.obj
+
+# target to build an object file
+src/DataBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/src/DataBase.cpp.obj
+.PHONY : src/DataBase.cpp.obj
+
+src/DataBase.i: src/DataBase.cpp.i
+.PHONY : src/DataBase.i
+
+# target to preprocess a source file
+src/DataBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/src/DataBase.cpp.i
+.PHONY : src/DataBase.cpp.i
+
+src/DataBase.s: src/DataBase.cpp.s
+.PHONY : src/DataBase.s
+
+# target to generate assembly for a file
+src/DataBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singeltoon.dir\build.make CMakeFiles/singeltoon.dir/src/DataBase.cpp.s
+.PHONY : src/DataBase.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... singeltoon
+	@echo ... src/DataBase.obj
+	@echo ... src/DataBase.i
+	@echo ... src/DataBase.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

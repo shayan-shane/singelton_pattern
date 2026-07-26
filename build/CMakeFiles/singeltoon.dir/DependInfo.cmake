@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Afra/OneDrive/Desktop/test_git/src/DataBase.cpp" "CMakeFiles/singeltoon.dir/src/DataBase.cpp.obj" "gcc" "CMakeFiles/singeltoon.dir/src/DataBase.cpp.obj.d"
   "C:/Users/Afra/OneDrive/Desktop/test_git/src/main.cpp" "CMakeFiles/singeltoon.dir/src/main.cpp.obj" "gcc" "CMakeFiles/singeltoon.dir/src/main.cpp.obj.d"
   )
 
