@@ -18,9 +18,11 @@ DataBase *DataBase::get_instance()
     return db;
 }
 
-void DataBase::set_speed(const vector<double> &new_speed)
+void DataBase::set_speed(const double &new_speed_x, const double &new_speed_y, const double &new_speed_z)
 {
-    speed = new_speed;
+    speed.at(0) = new_speed_x;
+    speed.at(1) = new_speed_y;
+    speed.at(2) = new_speed_z;
 }
 double DataBase::get_speed()
 {
