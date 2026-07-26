@@ -15,7 +15,7 @@ private:
 public:
     static DataBase *get_instance();
 
-    void set_speed(const vector<double> &new_speed);
+    void set_speed(const double &new_speed_x, const double &new_speed_y, const double &new_speed_z);
     double get_speed();
     void set_steer(const double &new_steer);
     double get_steer();
